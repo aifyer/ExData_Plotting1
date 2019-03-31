@@ -30,7 +30,7 @@ sm3<- as.numeric(epc$Sub_metering_3)
 plot(time,sm1,type="l",ylab="Energy sub metering",xlab="")
 points(time,sm2,type="l",col="red")
 points(time,sm3,type="l",col="blue")
-legend("topright",lty=1,col=c("black","red","blue"), cex=0.9,pt.cex = 0.9,
+legend("topright",lty=1,col=c("black","red","blue"), 
        legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty="n")
 
 ## draw the 4th graph of the Global_reactive_power~time. with xlab and ylab.
